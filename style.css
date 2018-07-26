@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700|Ubuntu:400,700');
+
+
+body{
+	background-image: url("image/b.jpg");
+	margin:0;
+}
+
+header{
+	background:black;
+	color:white;
+	padding: 8px 0px 6px 40px;
+	height: 40px;
+}
+	
+header h1{
+	display: inline;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 200:
+	font-size: 6px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+nav ul{
+	display: inline;
+	padding:0px;
+	float: left;
+	margin-left: 40px;
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 20px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+#nav{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.homered{
+	background-color: red;
+	padding: 30px 10px 10px 10px;
+}
+
+.divider{
+	background-color: red;
+	height: 8px;
+}
+
+.homeblack:hover{
+	background-color: blue;
+	padding: 30px 10px 10px 10px;
+}
+
+#log{
+	position: absolute;
+	margin-top: 70px;
+	margin-bottom: 100px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 500px;
+	height: 500px;
+	padding:80px 40px;
+	box-sizing: border-box;
+	-webkit-box-shadow: 5px 3px 62px 0px rgba(0,0,0,0.85);
+-moz-box-shadow: 5px 3px 62px 0px rgba(0,0,0,0.85);
+box-shadow: 5px 3px 62px 0px rgba(0,0,0,0.85);
+
+	}
+
+	img{ 
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(48% - 50px);
+	}
+	
+	h2{
+	font-size:40px;
+	color:white;
+	test-align:center;
+	font-weight:bolder;
+	margin-top:5px;
+	}
+	
+	label{
+	font-size:30px;
+	color:white;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

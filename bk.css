@@ -1,0 +1,150 @@
+ body{
+     font-family: sans-serif;
+     margin: 0;
+     padding: 0;
+            }
+#wrapper{
+		border: 0px solid;
+		width: 970px;
+		margin: auto;
+    padding: 10px;
+    padding-left: 18px;
+    background-color:
+		}
+
+*{
+    margin: 0;
+    padding: 0
+}<!--* will provide this property to every div element in the HTML page-->
+
+
+#header{
+    border: 0px solid;
+    width: 960px;
+    
+}
+
+
+#header ul{
+    list-style-type: none
+    
+}
+
+
+#header ul li{
+    
+    font-size: 14px;
+    float: left;
+    width: 192px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: bisque;
+     
+}
+
+
+
+#header ul li:hover{
+    background-color: black;   
+}
+
+
+
+#header ul li a{
+    text-decoration: none;
+    color: crimson
+    
+}
+
+
+#header ul li a:hover{
+   color: white;
+    
+}
+
+
+#bodyparts{
+    border: 0px solid;
+    margin: 10px;
+}
+
+
+#bodyleft{
+    border: 0px solid;
+    float: left;
+    width: 250px;
+}
+
+
+#bodyleft h2{
+    background-color: bisque;
+    color: crimson;
+    padding: 4px;
+    
+}
+
+
+#bodyleft ul{
+    list-style-type: none;
+}
+
+
+
+#bodyleft ul li{
+    border-bottom: 1px dotted;
+    font-size: 16px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 5px;
+}
+
+
+#bodyleft ul li a{
+    text-decoration: none;
+    color: brown;
+}
+
+
+#bodyleft ul li a:hover{
+    color: black
+}
+
+
+
+#bodyright{
+    border: 1px solid beige;
+    width: 682px;
+    float: left;
+    margin-left: 15px;
+}
+
+
+#bodyright h2{
+    background-color: bisque;
+    color: crimson;
+    padding: 4px;
+    
+}
+
+
+#bodyright p{
+    padding: 8px;
+    font-size: 16px;
+    line-height: 23px;
+    
+}
+
+
+#footer{
+    clear: both;
+    border: 0px solid;
+    margin-top: 15px;
+    float: left;
+    width: 955px;
+    background-color: blanchedalmond;
+    color: firebrick;
+    padding: 5px;
+    font-size: 12px;
+    
+}
